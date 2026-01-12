@@ -438,8 +438,11 @@ class GeneratorWord:
                 h = t.rows[1 + i].cells
                 h[0].text = str(1 + i)
                 h[1].text = f'Планируемый вид РИД: {r.rid_type}.\n'\
-                            f'Планируемое название РИД: «{r.rid_name}\n'\
-                            f'Планируемый результат: {r.description}'
+                            f'Планируемое название РИД: «{r.rid_name}».\n'\
+                            f'Планируемый результат: {r.description}.\n'\
+                            f'Планируемое использование: {r.rid_type} будет применяться в '\
+                            f'качестве инструментального средства для проведения научных '\
+                            f'исследований по тематике {th.title}.'
                 h[2].text = '3'
                 h[3].text = str(r.year)
                 i = i + 1
@@ -850,7 +853,7 @@ class GeneratorWord:
                              f'{job_place_private_collection.osspv.name}'
 
                 # Money without hoz spents.
-                x = thematic.outlay['II'].xmoney_tr
+                x = thematic.outlay['II'].xmoney_rubles_with_kopecks_str
                 h[12].text = f'{x}'
 
                 # Move row counter.
@@ -1082,7 +1085,7 @@ class GeneratorWord:
 
         # If it is form without hoz then print first row.
         if not hoz:
-            x = outlay['II'].xmoney_tr
+            x = outlay['II'].xmoney_rubles_with_kopecks_str
             add_row(rowi,'', 'ВСЕГО ЗАТРАТ, в том числе:', f'{x}', f'{x}')
             rowi = rowi + 1
 
@@ -1096,7 +1099,7 @@ class GeneratorWord:
             if (not hoz) and (ol.label == 'III.'):
                 break
 
-            x = ol.xmoney_tr
+            x = ol.xmoney_rubles_with_kopecks_str
             add_row(rowi, ol.label, ol.name, f'{x}', f'{x}')
             rowi = rowi + 1
 

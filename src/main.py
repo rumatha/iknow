@@ -105,14 +105,14 @@ def generate_documents_pack(y, out_dir):
                                                    w3, w3, w3, w3, w3, w3, w3, w3, w3)
 
         # Form gos assignment (order 3188, form, supplements 7 - 11).
-        #prex = f'{pre}-{y}-{y + 2}-формирование'
-        #prexf = f'{prex}-форма'
-        #gw.generate_form_gos_assignment_3188_07_technical_task(theme, y, f'{prexf}-07-ТЗ')
-        #gw.generate_form_gos_assignment_3188_08_calendar_plan(theme, y, f'{prexf}-08-КП')
-        #gw.generate_form_gos_assignment_3188_09_outlay(theme, y, f'{prexf}-09-смета')
-        #gw.generate_form_gos_assignment_3188_10_team(theme, team, y, f'{prexf}-10-ВТК')
-        #gw.generate_form_gos_assignment_3188_11_equipment(theme, f'{prexf}-11-оборудование')
-        #ge.generate_PTNI_researchers(theme, f'{prex}-ПТНИ-исследователи')
+        prex = f'{pre}-{y}-{y + 2}-формирование'
+        prexf = f'{prex}-форма'
+        gw.generate_form_gos_assignment_3188_07_technical_task(theme, y, f'{prexf}-07-ТЗ')
+        gw.generate_form_gos_assignment_3188_08_calendar_plan(theme, y, f'{prexf}-08-КП')
+        gw.generate_form_gos_assignment_3188_09_outlay(theme, y, f'{prexf}-09-смета')
+        gw.generate_form_gos_assignment_3188_10_team(theme, team, y, f'{prexf}-10-ВТК')
+        gw.generate_form_gos_assignment_3188_11_equipment(theme, f'{prexf}-11-оборудование')
+        ge.generate_PTNI_researchers(theme, f'{prex}-ПТНИ-исследователи')
 
         # Exec gos assignment (order 3188, exec, supplements 1 - 5).
         prex = f'{pre}-{y}-{y + 2}-приказ'
@@ -134,6 +134,6 @@ if __name__ == '__main__':
     gh.generate_plan(cx.cx2, '../out/plan_6f_si_2.html', year_from=2025, year_to=2029)
 
     # generate documents for complex themes
-    generate_documents_pack(2026, '../out/docs')
+    generate_documents_pack(2027, '../out/docs')
 
 #===================================================================================================
