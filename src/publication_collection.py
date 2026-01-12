@@ -49,7 +49,9 @@ nrcki_2025_cx1_th1_res2_pub01 = \
 nrcki_2025_cx1_th1_res2_pub02 = \
     Pub([(ppc.abramov_ag, [jppc.nrcki])],
         'Methods and contemporary tools for multi-criteria testing and dynamic service quality measurements with an emphasis on research networks.',
-        jc.lobachevskii, 2025, '', '', '', '', '', '', 'en')
+        jc.lobachevskii, 2025, '46', '12', '6163-6176',
+        '10.1134/S1995080225611907', '',
+        'The paper has been prepared within the framework of the state assignment of the National Research Centre “Kurchatov Institute” on the topic no. FNEF-2024-0014.', 'en')
 # cx1 th2 res1
 nrcki_2025_cx1_th2_res1_pub01 = \
     Pub([(pc.andreicheva_en, []), (ppc.khramchenkov_mg, [jppc.nrcki])],

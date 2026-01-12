@@ -130,10 +130,10 @@ if __name__ == '__main__':
 
     # plans
     gh.generate_publications_info(pc.nrcki_2025, '../out/publications_2025.html')
-    gh.generate_plan(cx.cx1, '../out/plan_6f_si_1.html', year_from=2025, year_to=2029)
-    gh.generate_plan(cx.cx2, '../out/plan_6f_si_2.html', year_from=2025, year_to=2029)
+    gh.generate_plan(cx.cx1, '../out/plan_6f_si_1.html', year_from=2026, year_to=2029)
+    gh.generate_plan(cx.cx2, '../out/plan_6f_si_2.html', year_from=2026, year_to=2029)
 
     # generate documents for complex themes
-    generate_documents_pack(2027, '../out/docs')
+    #generate_documents_pack(2027, '../out/docs')
 
 #===================================================================================================
