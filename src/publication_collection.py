@@ -334,69 +334,110 @@ nrcki_2025 = \
 #===================================================================================================
 
 # cx1 th1 res1 6 publ
-nrcki_2026_cx1_th1_res1_pub01 = Pub()
-nrcki_2026_cx1_th1_res1_pub02 = Pub()
-nrcki_2026_cx1_th1_res1_pub03 = Pub()
-nrcki_2026_cx1_th1_res1_pub04 = Pub()
-nrcki_2026_cx1_th1_res1_pub05 = Pub()
-nrcki_2026_cx1_th1_res1_pub06 = Pub()
+nrcki_2026_cx1_th1_res1_pub01 = Pub([(ppc.ovsyannikov_ap, [jppc.nrcki])])
+nrcki_2026_cx1_th1_res1_pub02 = Pub([(ppc.mironov_yb, [jppc.nrcki])])
+nrcki_2026_cx1_th1_res1_pub03 = Pub([(ppc.mironov_yb, [jppc.nrcki])])
+nrcki_2026_cx1_th1_res1_pub04 = Pub([(ppc.mironov_yb, [jppc.nrcki])])
+nrcki_2026_cx1_th1_res1_pub05 = Pub([(ppc.abramov_ag, [jppc.nrcki])])
+nrcki_2026_cx1_th1_res1_pub06 = Pub([(ppc.abramov_ag, [jppc.nrcki])])
 # cx1 th2 res1 1 publ
-nrcki_2026_cx1_th2_res1_pub01 = Pub()
+nrcki_2026_cx1_th2_res1_pub01 = Pub([(ppc.baranov_av, [jppc.nrcki])])
 # cx1 th2 res2 4 publ
-nrcki_2026_cx1_th2_res2_pub01 = Pub()
-nrcki_2026_cx1_th2_res2_pub02 = Pub()
-nrcki_2026_cx1_th2_res2_pub03 = Pub()
-nrcki_2026_cx1_th2_res2_pub04 = Pub()
+nrcki_2026_cx1_th2_res2_pub01 = \
+    Pub([(ppc.khramchenkov_mg, [jppc.nrcki])],
+        'Математическое моделирование тромбоза сосудов микрососудистого русла кровеносной системы человека.',
+        jc.inzhenerno_phis_journal, 2026, '', '', '',
+        '', '',
+        '', 'ru')
+nrcki_2026_cx1_th2_res2_pub02 = \
+    Pub([(ppc.tumakov_md, [jppc.nrcki])],
+        'О задачах дифракции электромагнитных волн на предфрактальных периодических решетках.',
+        jc.uch_zapiski_kaz_univer_phis_mat, 2026, '', '', '',
+        '', '',
+        '', 'ru')
+nrcki_2026_cx1_th2_res2_pub03 = Pub([(ppc.chachkov_dv, [jppc.nrcki])])
+nrcki_2026_cx1_th2_res2_pub04 = Pub([(ppc.chachkov_dv, [jppc.nrcki])])
 # cx1 th3 res1 8 publ
-nrcki_2026_cx1_th3_res1_pub01 = Pub()
-nrcki_2026_cx1_th3_res1_pub02 = Pub()
-nrcki_2026_cx1_th3_res1_pub03 = Pub()
-nrcki_2026_cx1_th3_res1_pub04 = Pub()
-nrcki_2026_cx1_th3_res1_pub05 = Pub()
-nrcki_2026_cx1_th3_res1_pub06 = Pub()
-nrcki_2026_cx1_th3_res1_pub07 = Pub()
-nrcki_2026_cx1_th3_res1_pub08 = Pub()
+nrcki_2026_cx1_th3_res1_pub01 = Pub([(ppc.sotnikov_an, [jppc.nrcki])])
+nrcki_2026_cx1_th3_res1_pub02 = Pub([(ppc.sotnikov_an, [jppc.nrcki])])
+nrcki_2026_cx1_th3_res1_pub03 = Pub([(ppc.sotnikov_an, [jppc.nrcki])])
+nrcki_2026_cx1_th3_res1_pub04 = Pub([(ppc.elizarov_am, [jppc.nrcki])])
+nrcki_2026_cx1_th3_res1_pub05 = Pub([(ppc.elizarov_am, [jppc.nrcki])])
+nrcki_2026_cx1_th3_res1_pub06 = Pub([(ppc.elizarov_am, [jppc.nrcki])])
+nrcki_2026_cx1_th3_res1_pub07 = Pub([(ppc.elizarov_am, [jppc.nrcki])])
+nrcki_2026_cx1_th3_res1_pub08 = Pub([(ppc.elizarov_am, [jppc.nrcki])])
 # cx1 th3 res2 1 publ
-nrcki_2026_cx1_th3_res2_pub01 = Pub()
+nrcki_2026_cx1_th3_res2_pub01 = Pub([(ppc.sotnikov_an, [jppc.nrcki])])
 
 # cx2 th1 res1 4 publ
-nrcki_2026_cx2_th1_res1_pub01 = Pub()
-nrcki_2026_cx2_th1_res1_pub02 = Pub()
-nrcki_2026_cx2_th1_res1_pub03 = Pub()
-nrcki_2026_cx2_th1_res1_pub04 = Pub()
+nrcki_2026_cx2_th1_res1_pub01 = Pub([(ppc.telegin_pn, [jppc.nrcki])])
+nrcki_2026_cx2_th1_res1_pub02 = Pub([(ppc.baranov_av, [jppc.nrcki])])
+nrcki_2026_cx2_th1_res1_pub03 = Pub([(ppc.shmelev_as, [jppc.nrcki])])
+nrcki_2026_cx2_th1_res1_pub04 = Pub([(ppc.svadkovskiy_ia, [jppc.nrcki])])
+nrcki_2026_cx2_th1_res1_pub05 = Pub([(ppc.ovsyannikov_ap, [jppc.nrcki])])
 # cx2 th2 res1 13 publ
-nrcki_2026_cx2_th2_res1_pub01 = Pub()
-nrcki_2026_cx2_th2_res1_pub02 = Pub()
-nrcki_2026_cx2_th2_res1_pub03 = Pub()
-nrcki_2026_cx2_th2_res1_pub04 = Pub()
-nrcki_2026_cx2_th2_res1_pub05 = Pub()
-nrcki_2026_cx2_th2_res1_pub06 = Pub()
-nrcki_2026_cx2_th2_res1_pub07 = Pub()
-nrcki_2026_cx2_th2_res1_pub08 = Pub()
-nrcki_2026_cx2_th2_res1_pub09 = Pub()
-nrcki_2026_cx2_th2_res1_pub10 = Pub()
-nrcki_2026_cx2_th2_res1_pub11 = Pub()
-nrcki_2026_cx2_th2_res1_pub12 = Pub()
-nrcki_2026_cx2_th2_res1_pub13 = Pub()
+nrcki_2026_cx2_th2_res1_pub01 = \
+    Pub([(ppc.chachkov_dv, [jppc.nrcki])],
+        'Subphthalocyanine 3d-metal complexes may be: prediction of their existence using DFT model chemistries.',
+        jc.journal_of_coordination_chemistry, 2026, '', '', '',
+        '', '',
+        '', 'en')
+nrcki_2026_cx2_th2_res1_pub02 = \
+    Pub([(ppc.khramchenkov_mg, [jppc.nrcki])],
+        'Геомеханика карста',
+        jc.inzhenerno_phis_journal, 2026, '', '', '',
+        '', '',
+        '', 'ru')
+nrcki_2026_cx2_th2_res1_pub03 = \
+    Pub([(ppc.chachkov_dv, [jppc.nrcki])],
+        'Deuterated cis- and trans-di[benzo]porphyrazines: Quantum chemical consideration of (D,D)-isomerism using the DFT model chemistries.',
+        jc.vestnik_technologich_universiteta, 2026, '', '', '',
+        '', '',
+        '', 'en')
+nrcki_2026_cx2_th2_res1_pub04 = \
+    Pub([(ppc.chachkov_dv, [jppc.nrcki])],
+        'Сoordination compounds of 3d-elements with subphthalocyanine: a quantum-chemical consideration using DFT.',
+        jc.reviews_and_advances_in_chemistry, 2026, '', '', '',
+        '', '',
+        '', 'en')
+nrcki_2026_cx2_th2_res1_pub05 = Pub([(ppc.chachkov_dv, [jppc.nrcki])])
+nrcki_2026_cx2_th2_res1_pub06 = Pub([(ppc.chachkov_dv, [jppc.nrcki])])
+nrcki_2026_cx2_th2_res1_pub07 = Pub([(ppc.chachkov_dv, [jppc.nrcki])])
+nrcki_2026_cx2_th2_res1_pub08 = Pub([(ppc.chachkov_dv, [jppc.nrcki])])
+nrcki_2026_cx2_th2_res1_pub09 = Pub([(ppc.chachkov_dv, [jppc.nrcki])])
+nrcki_2026_cx2_th2_res1_pub10 = Pub([(ppc.chachkov_dv, [jppc.nrcki])])
+nrcki_2026_cx2_th2_res1_pub11 = Pub([(ppc.baranov_av, [jppc.nrcki])])
+nrcki_2026_cx2_th2_res1_pub12 = Pub([(ppc.rybakov_aa, [jppc.nrcki])])
+nrcki_2026_cx2_th2_res1_pub13 = Pub([(ppc.rybakov_aa, [jppc.nrcki])])
 # cx2 th2 res1 1 publ
-nrcki_2026_cx2_th2_res2_pub01 = Pub()
+nrcki_2026_cx2_th2_res2_pub01 = Pub([(ppc.rybakov_aa, [jppc.nrcki])])
 # cx2 th3 res1 4 publ
-nrcki_2026_cx2_th3_res1_pub01 = Pub()
-nrcki_2026_cx2_th3_res1_pub02 = Pub()
-nrcki_2026_cx2_th3_res1_pub03 = Pub()
-nrcki_2026_cx2_th3_res1_pub04 = Pub()
+nrcki_2026_cx2_th3_res1_pub01 = Pub([(ppc.telegin_pn, [jppc.nrcki])])
+nrcki_2026_cx2_th3_res1_pub02 = Pub([(ppc.telegin_pn, [jppc.nrcki])])
+nrcki_2026_cx2_th3_res1_pub03 = Pub([(ppc.kiselev_ea, [jppc.nrcki])])
+nrcki_2026_cx2_th3_res1_pub04 = Pub([(ppc.rybakov_aa, [jppc.nrcki])])
 
 nrcki_2026 = \
 [
-    nrcki_2026_cx1_th1_res1_pub01, nrcki_2026_cx1_th1_res1_pub02, nrcki_2026_cx1_th1_res1_pub03, nrcki_2026_cx1_th1_res1_pub04, nrcki_2026_cx1_th1_res1_pub05, nrcki_2026_cx1_th1_res1_pub06,
+    nrcki_2026_cx1_th1_res1_pub01, nrcki_2026_cx1_th1_res1_pub02, nrcki_2026_cx1_th1_res1_pub03,
+    nrcki_2026_cx1_th1_res1_pub04, nrcki_2026_cx1_th1_res1_pub05, nrcki_2026_cx1_th1_res1_pub06,
     nrcki_2026_cx1_th2_res1_pub01,
-    nrcki_2026_cx1_th2_res2_pub01, nrcki_2026_cx1_th2_res2_pub02, nrcki_2026_cx1_th2_res2_pub03, nrcki_2026_cx1_th2_res2_pub04,
-    nrcki_2026_cx1_th3_res1_pub01, nrcki_2026_cx1_th3_res1_pub02, nrcki_2026_cx1_th3_res1_pub03, nrcki_2026_cx1_th3_res1_pub04, nrcki_2026_cx1_th3_res1_pub05, nrcki_2026_cx1_th3_res1_pub06, nrcki_2026_cx1_th3_res1_pub07, nrcki_2026_cx1_th3_res1_pub08,
+    nrcki_2026_cx1_th2_res2_pub01, nrcki_2026_cx1_th2_res2_pub02, nrcki_2026_cx1_th2_res2_pub03,
+    nrcki_2026_cx1_th2_res2_pub04,
+    nrcki_2026_cx1_th3_res1_pub01, nrcki_2026_cx1_th3_res1_pub02, nrcki_2026_cx1_th3_res1_pub03,
+    nrcki_2026_cx1_th3_res1_pub04, nrcki_2026_cx1_th3_res1_pub05, nrcki_2026_cx1_th3_res1_pub06,
+    nrcki_2026_cx1_th3_res1_pub07, nrcki_2026_cx1_th3_res1_pub08,
     nrcki_2026_cx1_th3_res2_pub01,
-    nrcki_2026_cx2_th1_res1_pub01, nrcki_2026_cx2_th1_res1_pub02, nrcki_2026_cx2_th1_res1_pub03, nrcki_2026_cx2_th1_res1_pub04,
-    nrcki_2026_cx2_th2_res1_pub01, nrcki_2026_cx2_th2_res1_pub02, nrcki_2026_cx2_th2_res1_pub03, nrcki_2026_cx2_th2_res1_pub04, nrcki_2026_cx2_th2_res1_pub05, nrcki_2026_cx2_th2_res1_pub06, nrcki_2026_cx2_th2_res1_pub07, nrcki_2026_cx2_th2_res1_pub08, nrcki_2026_cx2_th2_res1_pub09, nrcki_2026_cx2_th2_res1_pub10, nrcki_2026_cx2_th2_res1_pub11, nrcki_2026_cx2_th2_res1_pub12, nrcki_2026_cx2_th2_res1_pub13,
+    nrcki_2026_cx2_th1_res1_pub01, nrcki_2026_cx2_th1_res1_pub02, nrcki_2026_cx2_th1_res1_pub03,
+    nrcki_2026_cx2_th1_res1_pub04, nrcki_2026_cx2_th1_res1_pub05,
+    nrcki_2026_cx2_th2_res1_pub01, nrcki_2026_cx2_th2_res1_pub02, nrcki_2026_cx2_th2_res1_pub03,
+    nrcki_2026_cx2_th2_res1_pub04, nrcki_2026_cx2_th2_res1_pub05, nrcki_2026_cx2_th2_res1_pub06,
+    nrcki_2026_cx2_th2_res1_pub07, nrcki_2026_cx2_th2_res1_pub08, nrcki_2026_cx2_th2_res1_pub09,
+    nrcki_2026_cx2_th2_res1_pub10, nrcki_2026_cx2_th2_res1_pub11, nrcki_2026_cx2_th2_res1_pub12,
+    nrcki_2026_cx2_th2_res1_pub13,
     nrcki_2026_cx2_th2_res2_pub01,
-    nrcki_2026_cx2_th3_res1_pub01, nrcki_2026_cx2_th3_res1_pub02, nrcki_2026_cx2_th3_res1_pub03, nrcki_2026_cx2_th3_res1_pub04
+    nrcki_2026_cx2_th3_res1_pub01, nrcki_2026_cx2_th3_res1_pub02, nrcki_2026_cx2_th3_res1_pub03,
+    nrcki_2026_cx2_th3_res1_pub04
 ]
 
 #===================================================================================================

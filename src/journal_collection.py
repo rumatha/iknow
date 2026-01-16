@@ -21,6 +21,7 @@ math_models_and_computer_simulations =      Journal('Mathematical Models and Com
 nauchnye_i_tehnich_biblioteki =             Journal('Научные и технические библиотеки')
 polyhedron =                                Journal('Polyhedron')
 prog_syst_teor_i_prilozheniya =             Journal('Программные системы: Теория и приложения')
+reviews_and_advances_in_chemistry =         Journal('Reviews and Advances in Chemistry')
 sci_and_tech_inf_processing =               Journal('Scientific and Technical Information Processing')
 sistemy_i_sredstva_informazii =             Journal('Системы и средства информации')
 software_and_systems =                      Journal('Программные продукты и системы',        '0236-235X', '2311-2735', '4', 'К1', '', '',   '', '',     '',                     '', '', '', '', '', '+', '+', '+', 'https://swsys.ru')
